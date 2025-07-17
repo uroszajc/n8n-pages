@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screenshot Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+            text-align: center;
+        }
+        .screenshot-container {
+            background: #fff;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .screenshot-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        .caption {
+            margin-top: 12px;
+            color: #777;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="screenshot-container">
+        <img src="screenshot.png" alt="Screenshot">
+        <div class="caption">Displayed screenshot: screenshot.png</div>
+    </div>
+</body>
+</html>
